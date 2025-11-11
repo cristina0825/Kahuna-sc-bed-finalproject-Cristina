@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #f6f8fa;
+  font-family: 'Inter', Arial, sans-serif;
+}
+input, select, button {
+  font-family: inherit;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 7px 10px;
+  margin-bottom: 6px;
+}
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1e40af;
+}
+h2, h4 {
+  margin: 0 0 10px 0;
+}
+pre {
+  background: #f0f4f8;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  kahuna:
+    build: .
+    container_name: kahuna-php
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    command: ["php", "-S", "0.0.0.0:8000", "-t", "public"]
