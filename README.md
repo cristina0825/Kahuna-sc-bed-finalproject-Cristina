@@ -10,7 +10,7 @@ I used SQLite for simplicity and ease of running locally or in containers.
 - Frontend: React (Vite) app located in `frontend/`.
 - Postman collection for testing (optional).
 
-## Rulare recomandată (Docker)
+## Recomanded application to run(Docker)
 1. Start the service using Docker Compose (recommended, no local PHP needed):
 
    docker-compose up --build
