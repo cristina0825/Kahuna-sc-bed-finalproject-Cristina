@@ -33,7 +33,7 @@ I used SQLite for simplicity and ease of running locally or in containers.
 
    Vite will start (by default on port 5173). Access the UI in your browser (e.g: http://localhost:5173).
 
-## Rulare fără Docker (dacă ai PHP instalat local)
+## Running without Docker
 1. Install Node dependencies for the frontend and run it as above (optional).
 2. Create/reset the database and seed data:
 
@@ -45,7 +45,7 @@ I used SQLite for simplicity and ease of running locally or in containers.
 
 4. Access the API at: http://localhost:8000
 
-## Endpoint-uri principale (JSON)
+## Main endpoints (JSON)
 - POST /register -> {name,email,password,role}  — register a user (role: `client` sau `admin`).
 - POST /login -> {email,password}  — returns {token, user} upon authentification.
 - POST /logout -> header Authorization: Bearer <token>
@@ -56,7 +56,7 @@ I used SQLite for simplicity and ease of running locally or in containers.
 - GET /my-products -> (autentificat) — shows products registered by the current user
 - GET /product/{serial} -> (autentificat) — returns details of a registered product
 
-### Date utile
+### Useful data
 - Admin test account (seed): admin@example.com / adminpass
 - Database file: `data/database.sqlite`
 
